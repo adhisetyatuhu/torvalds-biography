@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+#linus-figure {
+    height: 500px;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
