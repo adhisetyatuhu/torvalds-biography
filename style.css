@@ -2,8 +2,15 @@ body {
     margin: 0;
 }
 
-#linus-figure {
-    height: 500px;
+figure {
+    margin: 0;
+}
+
+#linus-figure img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0%;
 }
 
 .container {
