@@ -15,16 +15,32 @@ p, a {
     line-height: 1.5;
 }
 
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text-break-word {
+    overflow-wrap: break-word;
+}
+
+/* navigation */
 nav {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 nav a {
-    padding-left: 20px;
     text-decoration: none;
     color: black;
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 nav a:visited {
@@ -34,8 +50,9 @@ nav a:visited {
 nav a:hover {
     color: #1679AB;
 }
+/* --end navigation */
 
-
+/* awards */
 figure {
     margin: 0;
 }
@@ -59,15 +76,13 @@ figure img {
     flex-wrap: wrap;
     text-align: center;
 }
+/* --end award */
 
+/* banner */
 #linus-figure img {
     height: 400px;
     width: 100%;
     object-fit: cover;
     object-position: 50% 0%;
 }
-
-.container {
-    margin-left: 10%;
-    margin-right: 10%;
-}
+/* --end banner */
