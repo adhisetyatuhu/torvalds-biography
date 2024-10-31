@@ -40,6 +40,25 @@ figure {
     margin: 0;
 }
 
+figure img {
+    height: 80px;
+}
+
+.img-box {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+#awards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
 #linus-figure img {
     height: 400px;
     width: 100%;
