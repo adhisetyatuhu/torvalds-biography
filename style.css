@@ -71,7 +71,7 @@ figure img {
 
 #awards {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
@@ -86,3 +86,22 @@ figure img {
     object-position: 50% 0%;
 }
 /* --end banner */
+
+
+/* contact */
+.contact-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    height: 30px;
+}
+
+.contact-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.25em;
+}
+/* --end contact */
