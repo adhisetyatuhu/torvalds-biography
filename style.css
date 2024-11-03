@@ -1,3 +1,8 @@
+/* 
+    lowercased comment is for group of basic classes/ids/elements and they can only have one spesific purpose (e.g. text, margin, padding etc.)
+    UPPERCASED comment is for group of section classes/ids/elements (e.g. HEADER, NAVIGATION etc.)
+ */
+
 html {
     scroll-behavior: smooth;
 }
@@ -6,6 +11,11 @@ body {
     margin: 0;
 }
 
+ul {
+    padding-left: 1rem;
+}
+
+/* text */
 h1, h2, h3, h4, p, a {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,10 +29,16 @@ p, a {
     line-height: 1.5;
 }
 
-ul {
-    padding-left: 1rem;
+.text-black {
+    color: black;
 }
 
+.text-break-word {
+    overflow-wrap: break-word;
+}
+/* --end text */
+
+/* container */
 .container {
     margin-left: 10%;
     margin-right: 10%;
@@ -35,7 +51,9 @@ ul {
     padding-left: 2em;
     padding-right: 2em;
 }
+/* --end container */
 
+/* margin and padding */
 .mtb-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -57,7 +75,9 @@ ul {
 .p-1 {
     padding: 0 1em;
 }
+/* --end margin and padding */
 
+/* background */
 .bg-orange {
     background-color: #fff2e7;
 }
@@ -65,7 +85,9 @@ ul {
 .bg-blue {
     background-color: #e5f2ff;
 }
+/* --end background */
 
+/* border */
 .border {
     border: 1px solid #fffcfa;
     border-radius: 10px;
@@ -75,23 +97,18 @@ ul {
     border: 1px solid #e5f2ff;
     border-radius: 10px;
 }
+/* --end border */
 
-.text-black {
-    color: black;
-}
-
-.text-break-word {
-    overflow-wrap: break-word;
-}
-
+/* flex */
 .flex-group {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/* --end flex */
 
-/* navigation */
+/* NAVIGATION */
 nav {
     display: flex;
     align-items: center;
@@ -117,18 +134,18 @@ nav a:visited {
 nav a:hover {
     color: #8c4002;
 }
-/* --end navigation */
+/* --end NAVIGATION */
 
-/* banner */
+/* BANNER */
 #linus-figure img {
     height: 400px;
     width: 100%;
     object-fit: cover;
     object-position: 50% 0%;
 }
-/* --end banner */
+/* --end BANNER */
 
-/* awards */
+/* AWARDS */
 figure {
     margin: 0;
 }
@@ -154,9 +171,9 @@ figure img {
     flex-wrap: wrap;
     text-align: center;
 }
-/* --end awards */
+/* --end AWARDS */
 
-/* contact */
+/* CONTACT */
 .contact-group {
     display: flex;
     align-items: center;
@@ -178,4 +195,4 @@ figure img {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.25em;
 }
-/* --end contact */
+/* --end CONTACT */
