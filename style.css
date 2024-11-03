@@ -162,6 +162,12 @@ figure img {
     align-items: center;
     gap: 0.5em;
     margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-group:hover {
+    color: blue;
 }
 
 .contact-icon {
