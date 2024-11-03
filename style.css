@@ -10,18 +10,85 @@ h1, h2, h3, h4, p, a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3 {
+    color: #8c4002;
+}
+
 p, a {
     font-size: 1.25em;
     line-height: 1.5;
 }
 
+ul {
+    padding-left: 1rem;
+}
+
 .container {
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 0;
+}
+
+.container-content {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.mtb-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ptb-1 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.p-1 {
+    padding: 0 1em;
+}
+
+.bg-orange {
+    background-color: #fff2e7;
+}
+
+.bg-blue {
+    background-color: #e5f2ff;
+}
+
+.border {
+    border: 1px solid #fffcfa;
+    border-radius: 10px;
+}
+
+.border-blue {
+    border: 1px solid #e5f2ff;
+    border-radius: 10px;
+}
+
+.text-black {
+    color: black;
 }
 
 .text-break-word {
     overflow-wrap: break-word;
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* navigation */
@@ -48,9 +115,18 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #1679AB;
+    color: #8c4002;
 }
 /* --end navigation */
+
+/* banner */
+#linus-figure img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+/* --end banner */
 
 /* awards */
 figure {
@@ -62,31 +138,23 @@ figure img {
 }
 
 .img-box {
-    border: 1px solid #aaa;
+    border: 1px solid #d5d5d5;
     border-radius: 10px;
     width: 100px;
     padding: 10px;
+    background-color: white;
     text-align: center;
 }
 
 #awards {
     display: flex;
-    align-items: start;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    gap: calc(5% + 5px);
     flex-wrap: wrap;
     text-align: center;
 }
-/* --end award */
-
-/* banner */
-#linus-figure img {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: 50% 0%;
-}
-/* --end banner */
-
+/* --end awards */
 
 /* contact */
 .contact-group {
