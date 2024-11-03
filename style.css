@@ -150,12 +150,17 @@ figure {
     margin: 0;
 }
 
+figcaption {
+    font-size: 0.75em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 figure img {
     height: 80px;
 }
 
 .img-box {
-    border: 1px solid #d5d5d5;
+    border: 1px solid #e6a066;
     border-radius: 10px;
     width: 100px;
     padding: 10px;
@@ -163,9 +168,15 @@ figure img {
     text-align: center;
 }
 
+.img-separator {
+    border-bottom: 1px solid #e6a066;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 #awards {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: calc(5% + 5px);
     flex-wrap: wrap;
