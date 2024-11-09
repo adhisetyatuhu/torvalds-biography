@@ -242,18 +242,28 @@ figure img {
 .contact-group {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 0.5em;
     margin-bottom: 10px;
     text-decoration: none;
     color: black;
+    /* background-color: #fff2e7; */
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .contact-group:hover {
-    color: blue;
+    color: #8c4002;
+    background-color: #fff2e7;
 }
 
 .contact-icon {
-    height: 30px;
+    flex-shrink: 0;
+    width: 30px;
+}
+
+svg path {
+    fill: currentColor;
 }
 
 .contact-text {
